@@ -19,7 +19,7 @@ export default function Home() {
                   Leidyy
                 </p>
                   <Tippy content={`Do Not Distrub`} animation="shift-away" arrow={false}>
-                    <span className={`ml-2 text-online px-2 py-1 font-normal rounded-md text-sm`}>
+                    <span className={`ml-2 text-dnd px-2 py-1 font-normal rounded-md text-sm`}>
                           <i className={`fa fa-circle text-online mr-2`} />Do Not Distrub
                     </span>
                   </Tippy>
