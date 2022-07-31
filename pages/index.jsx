@@ -40,7 +40,7 @@ Hello. I'm going to 9th grade. I am 13 years old. I like to code Discord bots. I
               
             </div>
             <br></br>
-            <span style={{ zIndex: '-1' }} className="text-white/5 absolute bottom-3 left-7 text-xl sm:text-2xl md:text-4xl lg:text-3xl font-semibold">developer & Student</span>
+            <span style={{ zIndex: '-1' }} className="text-white/5 absolute bottom-3 left-7 text-xl sm:text-2xl md:text-4xl lg:text-3xl font-semibold">Developer & Student</span>
           </div>
       </div>
 
