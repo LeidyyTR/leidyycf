@@ -18,7 +18,7 @@ export default function Home() {
                 <p className="flex items-center text-white text-4xl font-semibold">
                   Leidyy
                 </p>
-                  <Tippy content={`Online`} animation="shift-away" arrow={false}>
+                  <Tippy content={`Do Not Distrub`} animation="shift-away" arrow={false}>
                     <span className={`ml-2 text-online px-2 py-1 font-normal rounded-md text-sm`}>
                           <i className={`fa fa-circle text-online mr-2`} />Online
                     </span>
@@ -30,10 +30,10 @@ I am a professional editor and intermediate software developer. I have been prof
                 </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
-                <img alt="LeidyyTR" src={`https://cdn.discordapp.com/avatars/850844135967031316/a_9261dcfeb796915ded6f587fd436160c.gif?size=1024`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
+                <img alt="Leidyy" src={`https://cdn.discordapp.com/avatars/850844135967031316/a_9261dcfeb796915ded6f587fd436160c.gif?size=1024`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
-                  <Tippy content="Online" animation="shift-away" arrow={false}>
-                    <i className={`fad fa-circle text-2xl text-online`} />
+                  <Tippy content="Do Not Distrub" animation="shift-away" arrow={false}>
+                    <i className={`fad fa-circle text-2xl text-dnd`} />
                   </Tippy>
                 </div>
               </div>
