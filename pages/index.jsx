@@ -26,7 +26,7 @@ export default function Home() {
             
                 </div>
                 <p className="text-white/50 text-md mt-3">
-Hello. I'm going to 9th grade. I am 13 years old. I like to code Discord bots. I have been working on software for 2 years. I have 1 approved bot. You can check the invite link of my bot from my projects.
+Hello. I'm going to 9th grade. I am 14 years old. I like to code Discord bots. I have been working on software for 2 years. I have 1 approved bot. You can check the invite link of my bot from my projects.
                 </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
