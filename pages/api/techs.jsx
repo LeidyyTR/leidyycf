@@ -2,67 +2,60 @@ export default async(req, res) => {
     const techs = [
         {
             "name": "HTML",
-            "src": "/static/techs/html.svg"
+            "src": "/assets/techs/html.svg"
         },
         {
             "name": "CSS",
-            "src": "/static/techs/css.svg"
+            "src": "/assets/techs/css.svg"
         },
         {
             "name": "Javascript",
-            "src": "/static/techs/javascript.svg"
+            "src": "/assets/techs/javascript.svg"
         },
         {
             "name": "Node.js",
-            "src": "/static/techs/nodejs.svg"
+            "src": "/assets/techs/nodejs.svg"
         },
         {
             "name": "C#",
-            "src": "/static/techs/csharp.svg"
+            "src": "/assets/techs/csharp.svg"
         },
         {
             "name": "Mongo DB",
-            "src": "/static/techs/mongodb.svg"
+            "src": "/assets/techs/mongodb.svg"
         },
         {
             "name": "PHP",
-            "src": "/static/techs/php.svg"
-        },
-        {
-            "name": "TailwindCSS",
-            "src": "/static/techs/tailwindcss.svg"
+            "src": "/assets/techs/php.svg"
         },
         {
             "name": "Next.js",
-            "src": "/static/techs/nextjs.svg"
-        },
-        {
-            "name": "MySQL",
-            "src": "/static/techs/mysql.svg"
-        },
-        {
-            "name": "Express",
-            "src": "/static/techs/expressjs.svg"
+            "src": "/assets/techs/nextjs.svg"
         },
         {
             "name": "React",
-            "src": "/static/techs/react.svg"
+            "src": "/assets/techs/react.svg"
+        },
+
+        {
+            "name": "Git",
+            "src": "/assets/techs/git.svg"
+        },
+        {
+            "name": "Yarn",
+            "src": "/assets/techs/yarn.svg"
         },
         {
             "name": "Photoshop CC",
-            "src": "/static/techs/photoshop.svg"
+            "src": "/assets/techs/photoshop.svg"
         },
         {
             "name": "Github",
-            "src": "/static/techs/github.svg"
+            "src": "/assets/techs/github.svg"
         },
         {
             "name": "pnpm",
-            "src": "/static/techs/pnpm.svg"
-        },
-        {
-            "name": "Typescript",
-            "src": "/static/techs/typescript.svg"
+            "src": "/assets/techs/pnpm.svg"
         },
 
     ]
