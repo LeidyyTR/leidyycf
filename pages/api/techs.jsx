@@ -46,10 +46,6 @@ export default async(req, res) => {
             "src": "/assets/techs/yarn.svg"
         },
         {
-            "name": "Photoshop CC",
-            "src": "/assets/techs/photoshop.svg"
-        },
-        {
             "name": "Github",
             "src": "/assets/techs/github.svg"
         },
