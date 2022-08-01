@@ -7,6 +7,8 @@ import Tippy from '@tippyjs/react';
 export default function Home() {
   const { data: _repositories } = swr("/api/repos");
   const repositories = _repositories ? _repositories : null;
+    const { data: _technologies } = swr("/api/techs");
+  const technologies = _technologies ? _technologies : null;
 
   return (
     <>
