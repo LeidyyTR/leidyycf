@@ -126,6 +126,64 @@ Hello. I'm going to 9th grade. I am 14 years old. I like to code Discord bots. I
         </div>
       </div>
 
+ <div className="py-20">
+        <p className="text-3xl text-white font-semibold">Technologies I use</p>
+        <p className="text-xl text-white/50 font-normal">
+          The technologies I use are listed here.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 w-full gap-2 items-center mt-2">
+          {_technologies
+            ? technologies
+              ? technologies.map((_, __) => (
+                  <div
+                    key={__}
+                    className="cursor-pointer bg-[#191932]/20 p-2 px-4 hover:bg-[#191932]/30 shadow-lg hover:shadow-xl hover:shadow-[#191932]/20 transition-all duration-200 rounded-lg w-full"
+                  >
+                    <div className="flex justify-between items-center w-full">
+                      <div className="flex justify-center items-center h-[26px]">
+                        <img
+                          alt="clqu"
+                          src={_.src}
+                          className="rounded-md"
+                          width="24"
+                          height="24"
+                          style={{ fill: "#fff!important;" }}
+                        />
+                      </div>
+                      <p className="text-md font-semibold">{_.name}</p>
+                    </div>
+                  </div>
+                ))
+              : Array.from({ length: 20 }).map((_, __) => (
+                <div
+                  key={__}
+                  className="bg-[#191932]/20 p-4 hover:bg-[#191932]/30 shadow-lg hover:shadow-xl transition-all duration-200 rounded-lg w-full"
+                >
+                  <div className="flex justify-between items-center w-full">
+                    <div className="flex-shrink-0 w-[36px] h-[36px] mr-2">
+                      <div className="bg-[#191932]/50 w-[36px] h-[36px] rounded-md animate-pulse" />
+                    </div>
+                    <div className="bg-[#191932]/50 w-44 h-[24px] rounded-md animate-pulse" />
+                  </div>
+                </div>
+                ))
+            : Array.from({ length: 20 }).map((_, __) => (
+                <div
+                  key={__}
+                  className="bg-[#191932]/20 p-4 hover:bg-[#191932]/30 shadow-lg hover:shadow-xl transition-all duration-200 rounded-lg w-full"
+                >
+                  <div className="flex justify-between items-center w-full">
+                    <div className="flex-shrink-0 w-[36px] h-[36px] mr-2">
+                      <div className="bg-[#191932]/50 w-[36px] h-[36px] rounded-md animate-pulse" />
+                    </div>
+                    <div className="bg-[#191932]/50 w-44 h-[24px] rounded-md animate-pulse" />
+                  </div>
+                </div>
+              ))}
+        </div>
+      </div>
+
 
     </>
   )
