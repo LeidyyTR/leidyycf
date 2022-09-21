@@ -32,7 +32,7 @@ Hello. I'm going to 9th grade. I am 13 years old. I like to code Discord bots. I
                 </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
-                <img alt="Leidyy" src={`https://cdn.discordapp.com/avatars/850844135967031316/a_9261dcfeb796915ded6f587fd436160c.gif?size=1024`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
+                <img alt="Leidyy" src={`https://cdn.discordapp.com/avatars/850844135967031316/a_2d4c546597e2cb564f1c7998c72ee8b2.gif?size=1024`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
                   <Tippy content="Do Not Distrub" animation="shift-away" arrow={false}>
                     <i className={`fad fa-circle text-2xl text-dnd`} />
